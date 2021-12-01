@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,100italic,300italic);
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+  
+	
+/* Ancho de la página */
+
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+/* Ancho de la página */
+
+
+/* Posición y estilos del menú de navegación */
+
+nav{
+	width: 100%;
+    height: 160px;
+    background-color: rgba(235, 180, 78, 0.883);
+/* 
+    opacity: 0.5; */
+	
+}
+
+
+
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	transition: 0.8s all;
+	padding: 18px 20px;
+	
+ }
+ nav ul li:hover{
+    background-color: #fff;
+ }
+
+ .img-logo {
+	width: 180px;
+	padding-top: 20px;
+	padding-left: 5%;
+
+}
+
+nav ul {
+	padding-top: 90px;
+	display: inline-flex;
+
+	
+}
+ nav ul li a{
+	 text-decoration: none;
+	 color: #000000;
+	 
+ }
+
+
+a{
+	color: #0BC5D8;
+}
+
+a:visited{
+	color: #140b0b;
+}
+a:active{
+	color: #e27f0e;
+}
+
+
+h1,h2,h3,h4,h5,figure,ul {
+	margin: 0;
+}
+
+
+img {
+	max-width: 100%;
+
+}
+
+
+
+/* Estilos de la sección "featured" */
+
+.featured{
+	background-color: rgba(240, 193, 107, 0.616);
+}
+
+.fp-video{
+	width: 55%;
+	padding: 2em; /*tamaño del font-size :del elemento actual*/
+}
+
+.ft-art{
+	width: 30%;
+	padding: 2em;
+	vertical-align: top;
+}
+
+
+
+/* Estilo para todos los artículos */
+
+article{
+	padding: 30px;
+	background-color: rgba(240, 220, 107, 0.582);
+	margin: 20px 0;
+}
+
+article h1{
+	border-bottom: solid thin black;
+}
+
+.fp-video, .ft-art{
+	display: inline-block;
+}
+/* Estilo para los botones */
+
+
+.boton-container{
+	text-align: center;
+	background-color: #EA6E39;
+	margin: 0 auto;
+}
+.boton-container a{
+	text-decoration: none;
+	color: #fff;
+}
+.boton-container :hover{
+	background-color: #1FBEA4;
+}
+.boton{
+	padding: 15px;
+}
+
+
+/* Estilos para lso otros articulos */
+.art-image img {
+
+
+	max-width: 100%;
+	
+}
+.art-cont{
+
+	width: 740px;
+	vertical-align: top;
+}
+
+h2,figure {
+    margin: 0;
+
+}
+
+
+/* Estilos para el Footer */
+
+footer{
+	background-color: rgba(235, 180, 78, 0.883);
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	padding: 45px;
+}
+
+/* #saludable {
+	background-color: #1FBEA4;
+} */
